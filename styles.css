@@ -1,0 +1,93 @@
+html, body,#root{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    /* padding: 0;
+    margin: 0; */
+}
+
+#root {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-right: 300px;
+margin-bottom: 200px;
+
+}
+
+#burger {
+    width: 500px;
+}
+
+#top-bun {
+    height: 100px;
+    width: 500px;
+    background-color: rgb(171, 122, 73);
+    margin: 1px;
+    border-radius: 200px 200px 10px 10px;
+}
+
+#btw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tomato {
+    height: 8px;
+    width: 488px;
+    background-color: tomato;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+#cheese {
+    height: 10px;
+    width: 491px;
+    background-color: #ffda01;
+    border-radius: 2px;
+    margin: 1px;
+}
+
+#lettuce {
+    height: 8px;
+    width: 492px;
+    background-color: 	#a1d501;
+  margin: 1px;
+}
+
+#patty {
+    height: 50px;
+    width: 493px;
+    background-color: #593729;
+    border-radius: 10px;
+    margin: 1px;
+}
+
+#bottom-bun {
+    height: 80px;
+    width: 500px;
+    background-color: rgb(171, 122, 73);
+    margin: 1px;
+    border-radius: 10px 10px 50px 50px;
+}
+
+#priceDiv{
+    margin-top: 100px;
+    width: 200px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display-price{
+    justify-content: center;
+}
